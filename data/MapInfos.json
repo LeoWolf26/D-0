@@ -8,7 +8,7 @@ null,
 {"id":6,"expanded":true,"name":"Area A-4","order":7,"parentId":3,"scrollX":1404,"scrollY":776.5714285714286},
 {"id":7,"expanded":true,"name":"Area A-5","order":8,"parentId":3,"scrollX":1390.2857142857142,"scrollY":807.4285714285713},
 {"id":8,"expanded":false,"name":"起始點","order":3,"parentId":1,"scrollX":1404,"scrollY":776.5714285714286},
-{"id":9,"expanded":true,"name":"Area A-6","order":9,"parentId":3,"scrollX":1404,"scrollY":776.5714285714286},
-{"id":10,"expanded":true,"name":"Area B-1","order":10,"parentId":0,"scrollX":1404,"scrollY":776.5714285714286},
+{"id":9,"expanded":true,"name":"Area A-6","order":9,"parentId":3,"scrollX":832,"scrollY":640},
+{"id":10,"expanded":true,"name":"Area B-1","order":10,"parentId":0,"scrollX":896,"scrollY":624},
 {"id":11,"expanded":true,"name":"Area B-2","order":11,"parentId":10,"scrollX":1404,"scrollY":776.5714285714286}
 ]

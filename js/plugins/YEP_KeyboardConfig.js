@@ -479,12 +479,30 @@ Input._switchButton = function(button) {
 ConfigManager.keyMapper = JSON.parse(JSON.stringify(Input.keyMapper));
 ConfigManager.defaultMap = JSON.parse(JSON.stringify(Input.keyMapper));
 ConfigManager.wasdMap = {
-  9: 'tab', 13: 'ok', 16: 'shift', 17: 'control', 18: 'control', 27: 'escape',
-  32: 'ok', 33: 'pageup', 34: 'pagedown', 37: 'left', 38: 'up', 39: 'right',
-  40: 'down', 87: 'up', 65: 'left', 83: 'down', 68: 'right', 74: 'ok',
-  75: 'escape', 77: 'menu', 219: 'pageup',  221: 'pagedown', 45: 'escape',
-  46: 'ok', 35: 'escape', 36: 'menu', 96: 'escape', 98: 'down', 100: 'left',
-  102: 'right', 104: 'up', 120: 'debug' 
+    9: 'tab',       // tab
+    13: 'ok',       // enter
+    16: 'shift',    // shift
+    17: 'control',  // control
+    18: 'control',  // alt
+    27: 'escape',   // escape
+    32: 'ok',       // space
+    33: 'pageup',   // pageup
+    34: 'pagedown', // pagedown
+    37: 'left',     // left arrow
+    38: 'up',       // up arrow
+    39: 'right',    // right arrow
+    40: 'down',     // down arrow
+    45: 'escape',   // insert
+    65: 'pageup',   // A
+    83: 'pagedown', // S
+    88: 'escape',   // X
+    90: 'ok',       // Z
+    96: 'escape',   // numpad 0
+    98: 'down',     // numpad 2
+    100: 'left',    // numpad 4
+    102: 'right',   // numpad 6
+    104: 'up',      // numpad 8
+    120: 'debug'    // F9
 };
 
 if (Imported.YEP_ButtonCommonEvents) {
