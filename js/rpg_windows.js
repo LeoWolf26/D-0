@@ -1875,7 +1875,7 @@ Window_ItemCategory.prototype.windowWidth = function() {
 };
 
 Window_ItemCategory.prototype.maxCols = function() {
-    return 4;
+    return 3;
 };
 
 Window_ItemCategory.prototype.update = function() {
@@ -1886,10 +1886,10 @@ Window_ItemCategory.prototype.update = function() {
 };
 
 Window_ItemCategory.prototype.makeCommandList = function() {
+    //this.addCommand(TextManager.armor,   'armor');
+    this.addCommand(TextManager.keyItem, 'keyItem');
     this.addCommand(TextManager.item,    'item');
     this.addCommand(TextManager.weapon,  'weapon');
-    this.addCommand(TextManager.armor,   'armor');
-    this.addCommand(TextManager.keyItem, 'keyItem');
 };
 
 Window_ItemCategory.prototype.setItemWindow = function(itemWindow) {
@@ -2281,7 +2281,7 @@ Window_EquipStatus.prototype.refresh = function() {
     this.contents.clear();
     if (this._actor) {
         this.drawActorName(this._actor, this.textPadding(), 0);
-        for (var i = 0; i < 6; i++) {
+        for (var i = 0; i < 1; i++) {
             this.drawItem(0, this.lineHeight() * (1 + i), 2 + i);
         }
     }
@@ -2349,12 +2349,12 @@ Window_EquipCommand.prototype.windowWidth = function() {
 };
 
 Window_EquipCommand.prototype.maxCols = function() {
-    return 3;
+    return 2;
 };
 
 Window_EquipCommand.prototype.makeCommandList = function() {
     this.addCommand(TextManager.equip2,   'equip');
-    this.addCommand(TextManager.optimize, 'optimize');
+    //this.addCommand(TextManager.optimize, 'optimize');
     this.addCommand(TextManager.clear,    'clear');
 };
 
@@ -2671,8 +2671,8 @@ Window_Options.prototype.makeCommandList = function() {
 };
 
 Window_Options.prototype.addGeneralOptions = function() {
-    this.addCommand(TextManager.alwaysDash, 'alwaysDash');
-    this.addCommand(TextManager.commandRemember, 'commandRemember');
+    //this.addCommand(TextManager.alwaysDash, 'alwaysDash');
+    //this.addCommand(TextManager.commandRemember, 'commandRemember');
 };
 
 Window_Options.prototype.addVolumeOptions = function() {
