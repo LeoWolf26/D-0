@@ -2,7 +2,7 @@
 null,
 {"id":1,"expanded":false,"name":"測試區域","order":1,"parentId":0,"scrollX":1404,"scrollY":776.5714285714286},
 {"id":2,"expanded":false,"name":"戰鬥測試用","order":2,"parentId":1,"scrollX":1404,"scrollY":776.5714285714286},
-{"id":3,"expanded":false,"name":"Area A-1","order":4,"parentId":0,"scrollX":1404,"scrollY":776.5714285714286},
+{"id":3,"expanded":true,"name":"Area A-1","order":4,"parentId":0,"scrollX":1404,"scrollY":776.5714285714286},
 {"id":4,"expanded":true,"name":"Area A-2","order":5,"parentId":3,"scrollX":1404,"scrollY":776.5714285714286},
 {"id":5,"expanded":true,"name":"Area A-3","order":6,"parentId":3,"scrollX":1390.2857142857142,"scrollY":901.7142857142857},
 {"id":6,"expanded":true,"name":"Area A-4","order":7,"parentId":3,"scrollX":1404,"scrollY":776.5714285714286},
