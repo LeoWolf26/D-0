@@ -395,8 +395,8 @@ Yanfly.Param.KeyConfigEscKey = String(Yanfly.Parameters['Escape Key']);
 Yanfly.Param.KeyConfigEscTx = String(Yanfly.Parameters['Escape Text']);
 Yanfly.Param.KeyConfigCancelKey = String(Yanfly.Parameters['Cancel Key']);
 Yanfly.Param.KeyConfigCancelTx = String(Yanfly.Parameters['Cancel Text']);
-Yanfly.Param.KeyConfigMenuKey = String(Yanfly.Parameters['Menu Key']);
-Yanfly.Param.KeyConfigMenuTx = String(Yanfly.Parameters['Menu Text']);
+//Yanfly.Param.KeyConfigMenuKey = String(Yanfly.Parameters['Menu Key']);
+//Yanfly.Param.KeyConfigMenuTx = String(Yanfly.Parameters['Menu Text']);
 Yanfly.Param.KeyConfigShiftKey = String(Yanfly.Parameters['Shift Key']);
 Yanfly.Param.KeyConfigShiftTx = String(Yanfly.Parameters['Shift Text']);
 Yanfly.Param.KeyConfigPageUpKey = String(Yanfly.Parameters['PageUp Key']);
@@ -877,12 +877,12 @@ Window_KeyConfig.prototype.actionKey = function(action) {
 		case 'escape':
 			return Yanfly.Param.KeyConfigEscKey;
 			break;
-		case 'cancel':
-			return Yanfly.Param.KeyConfigCancelKey;
-			break;
-		case 'menu':
-			return Yanfly.Param.KeyConfigMenuKey;
-			break;
+//		case 'cancel':
+//			return Yanfly.Param.KeyConfigCancelKey;
+//			break;
+//		case 'menu':
+//			return Yanfly.Param.KeyConfigMenuKey;
+//			break;
 		case 'shift':
 			return Yanfly.Param.KeyConfigShiftKey;
 			break;
@@ -1046,8 +1046,8 @@ Window_KeyAction.prototype.makeCommandList = function() {
 	this.addCommand(Yanfly.Param.KeyConfigClearTx, 'ok', true, 'clear');
 	this.addCommand(Yanfly.Param.KeyConfigOkTx, 'ok', true, 'ok');
 	this.addCommand(Yanfly.Param.KeyConfigEscTx, 'ok', true, 'escape');
-	this.addCommand(Yanfly.Param.KeyConfigCancelTx, 'ok', true, 'cancel');
-	this.addCommand(Yanfly.Param.KeyConfigMenuTx, 'ok', true, 'menu');
+//	this.addCommand(Yanfly.Param.KeyConfigCancelTx, 'ok', true, 'cancel');
+//	this.addCommand(Yanfly.Param.KeyConfigMenuTx, 'ok', true, 'menu');
 	this.addCommand(Yanfly.Param.KeyConfigShiftTx, 'ok', true, 'shift');
 	this.addCommand(Yanfly.Param.KeyConfigPageUpTx, 'ok', true, 'pageup');
 	this.addCommand(Yanfly.Param.KeyConfigPageDnTx, 'ok', true, 'pagedown');
