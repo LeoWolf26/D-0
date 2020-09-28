@@ -590,7 +590,7 @@ Window_Base.prototype.drawActorSimpleStatus = function(actor, x, y, width) {
     this.drawActorIcons(actor, x, y + lineHeight * 2);
     this.drawActorClass(actor, x2, y);
     this.drawActorHp(actor, x2, y + lineHeight * 1, width2);
-    this.drawActorMp(actor, x2, y + lineHeight * 2, width2);
+    //this.drawActorMp(actor, x2, y + lineHeight * 2, width2);
 };
 
 Window_Base.prototype.drawItemName = function(item, x, y, width) {
