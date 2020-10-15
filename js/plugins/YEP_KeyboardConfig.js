@@ -481,7 +481,7 @@ ConfigManager.defaultMap = JSON.parse(JSON.stringify(Input.keyMapper));
 ConfigManager.wasdMap = {
     9: 'tab',       // tab
     13: 'ok',       // enter
-    16: 'shift',    // shift
+    65: 'shift',    // shift
     17: 'control',  // control
     18: 'control',  // alt
     27: 'escape',   // escape
@@ -493,8 +493,8 @@ ConfigManager.wasdMap = {
     39: 'right',    // right arrow
     40: 'down',     // down arrow
     45: 'escape',   // insert
-    65: 'pageup',   // A
-    83: 'pagedown', // S
+    83: 'pageup',   // A
+    68: 'pagedown', // S
     88: 'escape',   // X
     90: 'ok',       // Z
     96: 'escape',   // numpad 0
