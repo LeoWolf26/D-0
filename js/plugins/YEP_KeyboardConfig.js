@@ -481,7 +481,7 @@ ConfigManager.defaultMap = JSON.parse(JSON.stringify(Input.keyMapper));
 ConfigManager.wasdMap = {
     9: 'tab',       // tab
     13: 'ok',       // enter
-    65: 'shift',    // shift
+    16: 'shift',    // shift
     17: 'control',  // control
     18: 'control',  // alt
     27: 'escape',   // escape
@@ -493,6 +493,7 @@ ConfigManager.wasdMap = {
     39: 'right',    // right arrow
     40: 'down',     // down arrow
     45: 'escape',   // insert
+    65: 'e',
     83: 'pageup',   // A
     68: 'pagedown', // S
     88: 'escape',   // X
@@ -522,7 +523,8 @@ if (Yanfly.Param.BCEList['equal'] !== 0) ConfigManager.wasdMap[187] = 'equal';
 
 if (Yanfly.Param.BCEList['q'] !== 0) ConfigManager.wasdMap[81] = 'q';
 if (Yanfly.Param.BCEList['w'] !== 0) ConfigManager.wasdMap[87] = 'w';
-if (Yanfly.Param.BCEList['e'] !== 0) ConfigManager.wasdMap[69] = 'e';
+//if (Yanfly.Param.BCEList['e'] !== 0) ConfigManager.wasdMap[69] = 'e';
+ConfigManager.wasdMap[69] = undefined ;
 if (Yanfly.Param.BCEList['r'] !== 0) ConfigManager.wasdMap[82] = 'r';
 if (Yanfly.Param.BCEList['t'] !== 0) ConfigManager.wasdMap[84] = 't';
 if (Yanfly.Param.BCEList['y'] !== 0) ConfigManager.wasdMap[89] = 'y';
