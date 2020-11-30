@@ -493,7 +493,6 @@ ConfigManager.wasdMap = {
     39: 'right',    // right arrow
     40: 'down',     // down arrow
     45: 'escape',   // insert
-    65: 'e',
     83: 'pageup',   // A
     68: 'pagedown', // S
     88: 'escape',   // X
