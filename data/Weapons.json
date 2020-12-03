@@ -10,7 +10,7 @@ null,
 {"id":8,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":9,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":10,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
-{"id":11,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
+{"id":11,"animationId":0,"description":"擁有不可思議力量的劍...","etypeId":1,"traits":[],"iconIndex":97,"name":"Lævateinn","note":"使用說明\n按下按鍵是面前3格寬範圍的斬擊\n長按第一階段是3格寬的劍氣，射程5\n長按第二階段是5格寬的劍氣，射程無限，傷害兩倍\n只有劍氣的中央碰觸到牆壁才會停下\n取消固定方向，更改為奔跑\nW鍵是直接將攻擊打在自身中心範圍9X9方形範圍以內的敵人身上\nS鍵是快速向後移動兩格","params":[0,0,12,0,0,0,0,0],"price":0,"wtypeId":1},
 {"id":12,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":13,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":14,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
@@ -19,5 +19,5 @@ null,
 {"id":17,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":18,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":19,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
-{"id":20,"animationId":0,"description":"將手持的武器卸下","etypeId":1,"traits":[],"iconIndex":0,"name":"空手","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":1}
+{"id":20,"animationId":0,"description":"","etypeId":1,"traits":[{"code":31,"dataId":1,"value":0},{"code":22,"dataId":0,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0}
 ]
