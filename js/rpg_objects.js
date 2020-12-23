@@ -2422,10 +2422,10 @@ Game_BattlerBase.prototype.paramPlus = function(paramId) {
 };
 
 Game_BattlerBase.prototype.paramMin = function(paramId) {
-    if (paramId === 1) {
-        return 0;   // MMP
+    if (paramId === 0) {
+        return 1;   // MHP 以外
     } else {
-        return 1;
+        return 0;
     }
 };
 
