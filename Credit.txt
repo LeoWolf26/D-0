@@ -2,3 +2,5 @@ Plugin
 	Felski
 	mjshi
 	Yanfly
+
+Pic
