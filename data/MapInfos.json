@@ -39,8 +39,8 @@ null,
 {"id":37,"expanded":false,"name":"Area C-A-12","order":38,"parentId":25,"scrollX":811,"scrollY":769},
 {"id":38,"expanded":true,"name":"Area C-A-13","order":39,"parentId":25,"scrollX":811,"scrollY":763},
 {"id":39,"expanded":false,"name":"Area C-A-14","order":40,"parentId":25,"scrollX":2053.090909090909,"scrollY":970.909090909091},
-{"id":40,"expanded":true,"name":"Area C-B-1吧","order":41,"parentId":0,"scrollX":1786.909090909091,"scrollY":988.3636363636364},
-{"id":41,"expanded":true,"name":"測試特殊","order":5,"parentId":1,"scrollX":1769.4545454545455,"scrollY":1383.2727272727273},
-{"id":42,"expanded":true,"name":"Area C-B-2吧","order":42,"parentId":40,"scrollX":1786.909090909091,"scrollY":988.3636363636364},
-{"id":43,"expanded":false,"name":"Area C-B-3吧","order":43,"parentId":40,"scrollX":1786.909090909091,"scrollY":988.3636363636364}
+{"id":40,"expanded":true,"name":"Area C-B-1吧","order":41,"parentId":0,"scrollX":816,"scrollY":800},
+{"id":41,"expanded":true,"name":"測試特殊","order":5,"parentId":1,"scrollX":1584,"scrollY":1384},
+{"id":42,"expanded":true,"name":"Area C-B-2吧","order":42,"parentId":40,"scrollX":816,"scrollY":800},
+{"id":43,"expanded":false,"name":"Area C-B-3吧","order":43,"parentId":40,"scrollX":816,"scrollY":800}
 ]
