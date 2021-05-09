@@ -1,8 +1,8 @@
 [
 null,
-{"id":1,"expanded":false,"name":"測試區域","order":1,"parentId":0,"scrollX":1092,"scrollY":604},
-{"id":2,"expanded":false,"name":"戰鬥測試用","order":3,"parentId":1,"scrollX":1786.909090909091,"scrollY":988.3636363636364},
-{"id":3,"expanded":true,"name":"Area A-1","order":6,"parentId":0,"scrollX":1092,"scrollY":604},
+{"id":1,"expanded":true,"name":"測試區域","order":1,"parentId":0,"scrollX":1092,"scrollY":604},
+{"id":2,"expanded":false,"name":"戰鬥測試用","order":3,"parentId":1,"scrollX":1081.3333333333333,"scrollY":604},
+{"id":3,"expanded":false,"name":"Area A-1","order":6,"parentId":0,"scrollX":1092,"scrollY":604},
 {"id":4,"expanded":true,"name":"Area A-2","order":7,"parentId":3,"scrollX":1081.3333333333333,"scrollY":884},
 {"id":5,"expanded":true,"name":"Area A-3","order":8,"parentId":3,"scrollX":1081.3333333333333,"scrollY":1288},
 {"id":6,"expanded":true,"name":"Area A-4","order":9,"parentId":3,"scrollX":1092,"scrollY":604},
