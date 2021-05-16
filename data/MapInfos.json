@@ -43,7 +43,7 @@ null,
 {"id":41,"expanded":true,"name":"測試特殊","order":5,"parentId":1,"scrollX":1390.2857142857142,"scrollY":1335.4285714285713},
 {"id":42,"expanded":true,"name":"Area C-B-2吧","order":42,"parentId":40,"scrollX":811,"scrollY":777},
 {"id":43,"expanded":false,"name":"Area C-B-3吧","order":43,"parentId":40,"scrollX":1404,"scrollY":776.5714285714286},
-{"id":44,"expanded":true,"name":"解謎房間1","order":44,"parentId":0,"scrollX":1390.2857142857142,"scrollY":982.2857142857142},
+{"id":44,"expanded":true,"name":"解謎房間1","order":44,"parentId":0,"scrollX":1390,"scrollY":982},
 null,
-{"id":46,"expanded":false,"name":"解謎房間 1","order":45,"parentId":44,"scrollX":1093,"scrollY":589}
+{"id":46,"expanded":false,"name":"解謎房間 1","order":45,"parentId":44,"scrollX":1622,"scrollY":906}
 ]
