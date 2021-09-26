@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":96,"name":"翹棍","note":"","params":[0,0,3,0,0,0,0,0],"price":0,"wtypeId":1},
+{"id":1,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":96,"name":"撬棍","note":"","params":[0,0,3,0,0,0,0,0],"price":0,"wtypeId":1},
 {"id":2,"animationId":0,"description":"","etypeId":1,"traits":[],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0,"wtypeId":0},
 {"id":3,"animationId":0,"description":"一把年代久遠的老式手槍，能發射\".45口徑\"的手槍彈，\n和機構所採用的制式手槍相同，但這把是較舊的款式","etypeId":1,"traits":[],"iconIndex":104,"name":"半自動手槍","note":"","params":[0,0,6,0,0,0,0,0],"price":0,"wtypeId":2},
 {"id":4,"animationId":0,"description":"機構安保人員使用的武器之一，使用\"12號霰彈\"","etypeId":1,"traits":[],"iconIndex":115,"name":"壓動式霰彈槍(主角用)廢棄","note":"","params":[0,0,13,0,0,0,0,0],"price":0,"wtypeId":2},
