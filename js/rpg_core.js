@@ -3016,6 +3016,8 @@ Input.keyMapper = {
     45: 'escape',   // insert
     81: 'pageup',   // Q
     87: 'pagedown', // W
+    88: 'escape',   // X
+    90: 'ok',       // Z
     96: 'escape',   // numpad 0
     98: 'down',     // numpad 2
     100: 'left',    // numpad 4

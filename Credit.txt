@@ -2,5 +2,5 @@ Plugin
 	Felski
 	mjshi
 	Yanfly
-
+	Hime
 Pic
