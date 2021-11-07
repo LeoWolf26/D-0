@@ -3,4 +3,5 @@ Plugin
 	mjshi
 	Yanfly
 	Hime
+	Mr. Trivel
 Pic

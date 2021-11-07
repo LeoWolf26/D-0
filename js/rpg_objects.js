@@ -3223,7 +3223,7 @@ Game_Battler.prototype.clearTp = function() {
 };
 
 Game_Battler.prototype.chargeTpByDamage = function(damageRate) {
-    var value = Math.floor(50 * damageRate * this.tcr);
+    var value = 0;
     this.gainSilentTp(value);
 };
 
