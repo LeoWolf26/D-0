@@ -1,0 +1,63 @@
+判定 近距離可以使用
+<Custom Requirement>
+   if (a.isStateAffected(51)) {
+     value = true;
+   } else {
+     value = false;
+   }
+</Custom Requirement>
+
+中遠可以使用
+<Custom Requirement>
+   if (a.isStateAffected(52) || a.isStateAffected(53)) {
+     value = true;
+   } else  {
+     value = false;
+   }
+</Custom Requirement>
+
+近戰傷害公式
+<damage formula>
+value = 25 * a.atk / 100;
+if (b.isStateAffected(5)){
+value *= 1.1
+}
+if (b.isStateAffected(8)){
+value *= 1.1
+}
+if (b.isStateAffected(11)){
+value *= 1.1
+}
+if (b.isStateAffected(19)){
+value *= 1.1
+}
+if (b.isStateAffected(23)){
+value *= 1.1
+}
+value -= b.def / 100
+if (b.isStateAffected(52) || b.isStateAffected(53)){
+value *= 0
+}
+</damage formula>
+
+遠距離
+<damage formula>
+value = 45 * a.mat / 100;
+if (b.isStateAffected(5)){
+value *= 1.1
+}
+if (b.isStateAffected(8)){
+value *= 1.1
+}
+if (b.isStateAffected(11)){
+value *= 1.1
+}
+if (b.isStateAffected(19)){
+value *= 1.1
+}
+value -= b.def / 100
+</damage formula>
+公式說明，基礎傷害 X 傑克被動的倍率 X 攻擊力 / 100
+攻擊=近戰攻擊倍率，魔法攻擊=遠程攻擊倍率，基礎是100(%)，防禦僅靠物防計算
+敵人的數值是10%為單位(例 3 = 30%)
+
