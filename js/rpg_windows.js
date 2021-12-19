@@ -2281,7 +2281,7 @@ Window_EquipStatus.prototype.refresh = function() {
     this.contents.clear();
     if (this._actor) {
         this.drawActorName(this._actor, this.textPadding(), 0);
-        for (var i = 0; i < 1; i++) {
+        for (var i = 0; i < 5; i++) {
             this.drawItem(0, this.lineHeight() * (1 + i), 2 + i);
         }
     }
