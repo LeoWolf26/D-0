@@ -6,3 +6,7 @@ Plugin
 	Mr. Trivel
 	SumRndmDde
 Pic
+
+SE
+	魔王魂
+	効果音ラボ
