@@ -1,43 +1,43 @@
-判定 近距離可以使用
-<Custom Requirement>
-   if (a.isStateAffected(51)) {
-     value = true;
-   } else {
-     value = false;
-   }
-</Custom Requirement>
-
-中遠可以使用
-<Custom Requirement>
-   if (a.isStateAffected(52) || a.isStateAffected(53)) {
-     value = true;
-   } else  {
-     value = false;
-   }
-</Custom Requirement>
-
 近戰傷害公式
 <damage formula>
-value = 25 * a.atk / 100;
-if (b.isStateAffected(5)){
+value = a.atk;
+if (b.isStateAffected(41)){
 value *= 1.1
 }
-if (b.isStateAffected(8)){
+if (b.isStateAffected(42)){
 value *= 1.1
 }
-if (b.isStateAffected(11)){
+if (b.isStateAffected(43)){
 value *= 1.1
 }
-if (b.isStateAffected(19)){
+if (b.isStateAffected(44)){
 value *= 1.1
 }
-if (b.isStateAffected(23)){
+if (b.isStateAffected(45)){
 value *= 1.1
 }
-value -= b.def / 100
-if (b.isStateAffected(52) || b.isStateAffected(53)){
-value *= 0
+if (b.isStateAffected(46)){
+value *= 1.1
 }
+if (b.isStateAffected(49)){
+value *= 1.1
+}
+if (b.isStateAffected(50)){
+value *= 1.1
+}
+if (b.isStateAffected(51)){
+value *= 1.1
+}
+if (b.isStateAffected(52)){
+value *= 1.1
+}
+if (b.isStateAffected(53)){
+value *= 1.1
+}
+if (b.isStateAffected(54)){
+value *= 1.1
+}
+value -= b.def
 </damage formula>
 
 遠距離
