@@ -19,7 +19,7 @@
   'use strict';
 
 
-  const switchId = 1;
+  const switchId = 301;
 
   const _Scene_Menu_createCommandWindow = Scene_Menu.prototype.createCommandWindow;
   Scene_Menu.prototype.createCommandWindow = function() {
@@ -59,7 +59,7 @@
   const _Window_MenuCommand_addMainCommands = Window_MenuCommand.prototype.addMainCommands;
   Window_MenuCommand.prototype.addMainCommands = function() {
     if ($gameSwitches.value(switchId)) {
-      this.addCommand("Units", 'status', this.areMainCommandsEnabled());
+      this.addCommand("單位", 'status', this.areMainCommandsEnabled());
     } else {
       _Window_MenuCommand_addMainCommands.call(this);
     }

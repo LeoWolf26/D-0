@@ -1480,7 +1480,7 @@ Window_Help.prototype.constructor = Window_Help;
 
 Window_Help.prototype.initialize = function(numLines) {
     var width = Graphics.boxWidth;
-    var height = this.fittingHeight(numLines || 3);
+    var height = this.fittingHeight(numLines || 2);
     Window_Base.prototype.initialize.call(this, 0, 0, width, height);
     this._text = '';
 };
@@ -1875,7 +1875,7 @@ Window_ItemCategory.prototype.windowWidth = function() {
 };
 
 Window_ItemCategory.prototype.maxCols = function() {
-    return 3;
+    return 2;
 };
 
 Window_ItemCategory.prototype.update = function() {
@@ -1889,7 +1889,7 @@ Window_ItemCategory.prototype.makeCommandList = function() {
     this.addCommand(TextManager.keyItem, 'keyItem');
     this.addCommand(TextManager.item,    'item');
 //    this.addCommand(TextManager.weapon,  'weapon');
-    this.addCommand(TextManager.armor,   'armor');
+//    this.addCommand(TextManager.armor,   'armor');
 };
 
 Window_ItemCategory.prototype.setItemWindow = function(itemWindow) {

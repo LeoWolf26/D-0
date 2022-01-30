@@ -5,6 +5,7 @@ Plugin
 	Hime
 	Mr. Trivel
 	SumRndmDde
+	DreamX
 Pic
 
 SE
