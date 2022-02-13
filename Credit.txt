@@ -1,13 +1,12 @@
 Plugin
 	Felski
-	mjshi
 	Yanfly
-	Hime
-	Mr. Trivel
-	SumRndmDde
-	DreamX
+	biud436
+	tomoaky
+	Galv - galvs-scripts.com
 Pic
 
 SE
 	魔王魂
 	効果音ラボ
+

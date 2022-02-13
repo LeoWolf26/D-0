@@ -3708,8 +3708,8 @@ TouchInput._setupEventHandlers = function() {
 TouchInput._onMouseDown = function(event) {
     if (event.button === 0) {
         this._onLeftButtonDown(event);
-   } else if (event.button === 1) {
-      this._onMiddleButtonDown(event);
+    } else if (event.button === 1) {
+        this._onMiddleButtonDown(event);
     } else if (event.button === 2) {
         this._onRightButtonDown(event);
     }
