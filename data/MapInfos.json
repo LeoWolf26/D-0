@@ -1,7 +1,10 @@
 [
 null,
-{"id":1,"expanded":true,"name":"測試區域","order":1,"parentId":0,"scrollX":1205.3333333333333,"scrollY":1320},
-{"id":2,"expanded":false,"name":"起始點","order":2,"parentId":1,"scrollX":1092,"scrollY":604},
-{"id":3,"expanded":true,"name":"戰鬥地圖","order":3,"parentId":1,"scrollX":1092,"scrollY":604},
-{"id":4,"expanded":true,"name":"潛行測試地圖","order":4,"parentId":1,"scrollX":1081.3333333333333,"scrollY":716}
+{"id":1,"expanded":false,"name":"測試區域","order":1,"parentId":0,"scrollX":884,"scrollY":624},
+{"id":2,"expanded":false,"name":"起始點","order":2,"parentId":1,"scrollX":728,"scrollY":402.6666666666667},
+{"id":3,"expanded":true,"name":"戰鬥地圖","order":3,"parentId":1,"scrollX":728,"scrollY":402.6666666666667},
+{"id":4,"expanded":true,"name":"潛行測試地圖","order":4,"parentId":1,"scrollX":1081.7777777777778,"scrollY":837.3333333333334},
+{"id":5,"expanded":true,"name":"編隊用地圖","order":5,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":6,"expanded":true,"name":"Area 0-1","order":6,"parentId":0,"scrollX":884.7272727272727,"scrollY":521.4545454545455},
+{"id":7,"expanded":true,"name":"Area 0-2","order":7,"parentId":6,"scrollX":1505.4545454545455,"scrollY":521.4545454545455}
 ]
