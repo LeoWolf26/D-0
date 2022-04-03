@@ -646,7 +646,7 @@ DataManager._databaseFiles.push(
             this.questBitmap.drawText(lines[i], 0, this.lineY, this.contentsWidth(), this.lineHeight());
             this.write();
         }
-        this.drawHorzLine(this.lineY);
+        //this.drawHorzLine(this.lineY);
         this.write();
     }
     
