@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"$actor1","classId":1,"equips":[0,0],"faceIndex":0,"faceName":"Actor1","traits":[{"code":62,"dataId":3,"value":1},{"code":43,"dataId":31,"value":1}],"initialLevel":1,"maxLevel":1,"name":"傑克","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Actor1_2","characterIndex":0,"characterName":"$actor2","classId":2,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Actor1","traits":[{"code":62,"dataId":3,"value":1},{"code":43,"dataId":61,"value":1},{"code":11,"dataId":2,"value":0}],"initialLevel":1,"maxLevel":1,"name":"蕾歐娜","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Actor1_2","characterIndex":0,"characterName":"$actor2","classId":2,"equips":[0,0,15,0,0],"faceIndex":1,"faceName":"Actor1","traits":[{"code":62,"dataId":3,"value":1},{"code":43,"dataId":61,"value":1},{"code":11,"dataId":2,"value":0}],"initialLevel":1,"maxLevel":1,"name":"蕾歐娜","nickname":"","note":"","profile":""},
 {"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":3,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"Actor1","traits":[{"code":23,"dataId":5,"value":0}],"initialLevel":1,"maxLevel":1,"name":"無人機","nickname":"","note":"平時不會在隊伍中，\n只有傑克裝備無人機時會在戰鬥中加入","profile":""},
 {"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
 {"id":5,"battlerName":"","characterIndex":0,"characterName":"$NPC1","classId":1,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":1,"name":"雷昂","nickname":"","note":"","profile":""},
