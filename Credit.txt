@@ -5,6 +5,9 @@ Plugin
 	tomoaky
 	Galv - galvs-scripts.com
 	gameus
+	Tigress
+	SumRndmDde
+
 Pic
 
 SE
