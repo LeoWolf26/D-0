@@ -9,6 +9,8 @@ Plugin
 	SumRndmDde
 
 Pic
+	PandaMaru
+
 
 BGM
 	Cyber-Rainforce
