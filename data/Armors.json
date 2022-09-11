@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"atypeId":1,"description":"除了用來撬開物品外，也能當作應急武器使用。","etypeId":2,"traits":[{"code":43,"dataId":11,"value":1},{"code":43,"dataId":12,"value":1}],"iconIndex":122,"name":"撬棍","note":"","params":[0,0,30,0,0,0,0,0],"price":0},
-{"id":2,"atypeId":1,"description":"平凡無奇的小刀，也許能用來防身。","etypeId":2,"traits":[{"code":43,"dataId":16,"value":1},{"code":43,"dataId":17,"value":1},{"code":43,"dataId":18,"value":1}],"iconIndex":96,"name":"小刀","note":"","params":[0,0,20,0,0,0,0,0],"price":0},
+{"id":2,"atypeId":1,"description":"平凡無奇的小刀，也許能用來防身。","etypeId":2,"traits":[{"code":43,"dataId":17,"value":1},{"code":43,"dataId":18,"value":1},{"code":43,"dataId":19,"value":1},{"code":43,"dataId":20,"value":1}],"iconIndex":96,"name":"小刀","note":"","params":[0,0,20,0,0,0,0,0],"price":0},
 {"id":3,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
 {"id":4,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
 {"id":5,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
