@@ -27,6 +27,7 @@ var $plugins =
 {"name":"GALV_TimedMessagePopups","status":true,"description":"(v.2.0) Display popup message boxes on screen that do not stop gameplay and auto close after a set time.","parameters":{"Y Offset":"-60","Default Windowskin":"Window","Use Arrows":"true","Windowskin Back Opacity":"255","Text Outline Width":"0"}},
 {"name":"MrTS_HideQuantities","status":true,"description":"Allows to hide item quantities of specific items.","parameters":{}},
 {"name":"SRD_TPUpgrade","status":true,"description":"(v3.03) This Plugin allows you to have more control over your TP system and have a dynamic Max TP stat.","parameters":{"Minimum Max TP":"1","Maximum Max TP":"99999","Preserve TP?":"true","Max TP in Status?":"false","Restrict Damage Gain?":"false","= Default Values =":"","Default Actor MTP":"100","Default Actor ITP":"100","Default Enemy MTP":"100","Default Enemy ITP":"Math.randomInt(100)","= Battle TP Gains =":"","TP Bonus Crit Use":"0","TP Bonus Super Use":"0","TP Bonus Crit Take":"0","TP Bonus Super Take":"0"}},
+{"name":"SimpleFollowerControl","status":true,"description":"v1.1 Allows you simple control over your followers.","parameters":{"Follower Collision":"false"}},
 {"name":"--------------------","status":false,"description":"------------------------------------------------------------","parameters":{}},
 {"name":"DisableMouse","status":true,"description":"Disable mouse control","parameters":{}},
 {"name":"DisableEquipOptimize","status":true,"description":"Disable equip optimize","parameters":{}},
